@@ -25,7 +25,7 @@ include_directories (
 ${OpenCV_INCLUDE_DIRS})
 
 target_link_libraries(dnnDetector
-${CMAKE_CURRENT_SOURCE_DIR}/lib/liblibdetector.so
+${CMAKE_CURRENT_SOURCE_DIR}/lib/libdnnDetector.so
 ${OpenCV_LIBS}
 /usr/lib
 /usr/local/lib

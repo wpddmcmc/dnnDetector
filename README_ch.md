@@ -31,7 +31,7 @@ OpenCV_contrib
 
 **include/:** 头文件 - detector.hpp
 
-**lib/:** 库文件 - libdetector.so
+**lib/:** 库文件 - libdnnDetector.so
 
 **param/:** 配置文件 - param.xml
 
