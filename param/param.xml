@@ -2,7 +2,7 @@
 <opencv_storage>
 
 <!-->Configration<-->
-<net_type>0</net_type>              <!-->0-ssd 1-yolo<-->
+<net_type>1</net_type>              <!-->0-ssd 1-yolo<-->
 <thresh>0.35</thresh>               <!-->confidence threshold<-->
 <nms_thresh>0.25</nms_thresh>       <!-->nms threshold<-->
 

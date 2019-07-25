@@ -31,7 +31,7 @@ OpenCV_contrib
 
 **include/:** the head file - detector.hpp
 
-**lib/:** libary file - libdetector.so
+**lib/:** libary file - libdnnDetector.so
 
 **param/:** parameter file - param.xml
 

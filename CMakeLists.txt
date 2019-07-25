@@ -6,14 +6,13 @@ project (dnnDetector)
 set(CMAKE_CXX_FLAGS "${CAMKE_CXX_FLAGS} -std=c++11 -pthread")
 
 # if u have OpenCV version more than one, set the build path which one u want to use
-# set(OpenCV_DIR "Your_Opencv_Build_Path")
+set(OpenCV_DIR "/home/mingcongchen/app/opencv-4.1.0/build")
 # find opencv
 find_package(OpenCV REQUIRED)
 # print message of opencv
 message(STATUS "OpenCV version: ${OpenCV_VERSION}")
 message(STATUS "OpenCV include path: ${OpenCV_INCLUDE_DIRS}")
 message(STATUS "    libraries: ${OpenCV_LIBS}")
-
 
 aux_source_directory(./src/ DIR_SRCS)
 add_executable(dnnDetector ${DIR_SRCS})
